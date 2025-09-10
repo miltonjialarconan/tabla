@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas de Estilos CSS</title>
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Propiedad</th>
+                    <th>Sintaxis</th>
+                    <th>Descripcion</th>
+                    <th>Ejemplo</th>
+                    <th>Valores Comunes</th>
+                    <th>Imagen</th>
+                    <th>Enlace</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>background-attachment</td>
+                    <td>valor;</td>
+                    <td>Establece si una imagen de fondo se desplaza con el resto de la página o si es fija.</td>
+                    <td>body { background-image: url('fondo.jpg'); background-attachment: fixed; }</td>
+                    <td>scroll,fixed,local,initial,inherit;</td>
+                    <td><img src="imagenes/background-attachment.jpg" width="80" height="70"></td>
+                    <td><a href="https://carontestudio.com/blog/listado-de-propiedades-css/">Blog</a></td>
+
+                </tr>
+                <tr>
+                    <td>margin</td>
+                    <td>margin: valor;</td>
+                    <td>Define el espacio exterior alrededor de un elemento.</td>
+                    <td>div {margin: 20px;}</td>
+                    <td>auto, longitud (px, em, rem), %, inherit</td>
+                    <td><img src="imagenes/css-margin.webp" width="80" height="80"></td>
+                    <td><a href="https://www.w3schools.com/css/css_margin.asp">Margin</a></td>
+
+                </tr>
+                <tr>
+                    <td>font-family</td>
+                    <td>font-family: fuente1</td>
+                    <td>Define la fuente del texto del elemento</td>
+                    <td>p {font-family: 'Helvetica', sans-serif;}</td>
+                    <td>'Arial', 'Times New Roman', sans-serif, serif</td>
+                    <td><img src="imagenes/css-cursive-font.png" width="80" height="80"></td>
+                    <td><a href="https://tailwindcss.com/docs/font-family">Font</a></td>
+
+                </tr>
+                <tr>
+                    <td>visibility</td>
+                    <td>visibility: valor;</td>
+                    <td>Controla si un elemento es visible o no, pero sigue ocupando espacio.</td>
+                    <td>span {visibility: hidden;}</td>
+                    <td>visible, hidden, collapse</td>
+                    <td><img src="imagenes/position-visibility-always.webp" width="80" height="80"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/visibility">Visibilidad</a></td>
+
+                </tr>
+                <tr>
+                    <td>animation-delay</td>
+                    <td>animation-delay: tiempo;</td>
+                    <td>Establece el tiempo de espera antes de que comience una animación.</td>
+                    <td>div {animation-delay: 2s;}</td>
+                    <td>0s, 1s, 500ms, -2s</td>
+                    <td><img src="imagenes/animation-delay.gif" width="80" height="80"></td>
+                    <td><a href="https://www.w3schools.com/cssref/css3_pr_animation-delay.php">Animation</a></td>
+
+                </tr>
+                <tr>
+                    <td>align-content</td>
+                    <td>align-content: valor;</td>
+                    <td>Alinea las líneas dentro de un contenedor flexbox o grid cuando hay espacio adicional.</td>
+                    <td>.container {display: flex;flex-wrap: wrap;align-content: center;}</td>
+                    <td>flex-start, flex-end, center, space-between, space-around, stretch</td>
+                    <td><img src="imagenes/align-content-example.svg" width="80" height="80"></td>
+                    <td><a href="https://w3.unpocodetodo.info/css3/flex-align-content.php">Aling</a></td>
+
+                </tr>
+                <tr>
+                    <td>float</td>
+                    <td>float: valor;</td>
+                    <td>Hace que un elemento flote a la izquierda o derecha, permitiendo que el contenido lo rodee.</td>
+                    <td>img {float: right;}</td>
+                    <td>left, right, none, inherit</td>
+                    <td><img src="imagenes/Float.webp" width="80" height="80"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/float">Float</a></td>
+
+                </tr>
+                <tr>
+                    <td>border-color</td>
+                    <td>border-color: color;</td>
+                    <td>Define el color del borde de un elemento.</td>
+                    <td>div {border: 2px solid;border-color: blue;}</td>
+                    <td>red, #000, rgb(255,0,0), transparent</td>
+                    <td><img src="imagenes/css-border-color.png" width="80" height="80"></td>
+                    <td><a href="https://tailwindcss.com/docs/border-color">Border</a></td>
+
+                </tr>
+                <tr>
+                    <td>bottom</td>
+                    <td>bottom: valor;</td>
+                    <td>Define la distancia desde la parte inferior del contenedor posicionador. Requiere position: relative/absolute/fixed/sticky.</td>
+                    <td>.box { position: absolute;bottom: 20px;}</td>
+                    <td>10px, 5%, auto</td>
+                    <td><img src="imagenes/boxmodeldiagrambottomborder.webp" width="80" height="80"></td>
+                    <td><a href="https://www.w3schools.com/cssref/pr_pos_bottom.php">Botton</a></td>
+
+                </tr>
+                <tr>
+                    <td>content</td>
+                    <td>content: valor;</td>
+                    <td>Inserta contenido generado en pseudoelementos (::before, ::after).</td>
+                    <td>p::after {content: " 🔔";}</td>
+                    <td>"", "texto", url(), attr(), none</td>
+                    <td><img src="imagenes/content.png" width="80" height="80"></td>
+                    <td><a href="https://developer.mozilla.org/es/docs/Web/CSS/content">Content</a></td>
+
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</body>
+</html>
